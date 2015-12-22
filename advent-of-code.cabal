@@ -9,3 +9,8 @@ executable day-one
   main-is:              days/01/Main.hs
   build-depends:        base >=4.8 && <4.9
   default-language:     Haskell2010
+
+executable day-two
+  main-is:              days/02/Main.hs
+  build-depends:        base >=4.8 && <4.9, split
+  default-language:     Haskell2010
